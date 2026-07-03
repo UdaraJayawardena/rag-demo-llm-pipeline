@@ -1,0 +1,5 @@
+Ollama is a tool that lets you run large language models locally on your own computer, without needing an internet connection or API keys. It supports many open-source models like Llama, Mistral, and Gemma. Ollama exposes a simple REST API on port 11434, which makes it easy to integrate into custom applications.
+
+Retrieval-Augmented Generation, or RAG, is a technique used to give language models access to information they weren't trained on. Instead of relying only on what the model learned during training, RAG retrieves relevant pieces of text from an external source, like a document or database, and includes them in the prompt before generating an answer.
+
+Embeddings are numerical representations of text that capture meaning. Two pieces of text with similar meaning will have embeddings that are close together in vector space, even if they don't share the same exact words. This allows systems to search by meaning rather than by exact keyword matching.
